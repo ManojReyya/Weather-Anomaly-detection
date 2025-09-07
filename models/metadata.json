@@ -1,0 +1,42 @@
+{
+  "features": [
+    "temperature_c",
+    "humidity_pct",
+    "wind_speed_ms",
+    "precipitation_mm",
+    "pressure_hpa",
+    "cloud_cover_pct"
+  ],
+  "label": "risk_level",
+  "classes": {
+    "0": "Normal",
+    "1": "Elevated",
+    "2": "High"
+  },
+  "ranges": {
+    "temperature_c": [
+      -40.0,
+      50.0
+    ],
+    "humidity_pct": [
+      0.0,
+      100.0
+    ],
+    "wind_speed_ms": [
+      0.0,
+      60.0
+    ],
+    "precipitation_mm": [
+      0.0,
+      300.0
+    ],
+    "pressure_hpa": [
+      870.0,
+      1050.0
+    ],
+    "cloud_cover_pct": [
+      0.0,
+      100.0
+    ]
+  }
+}
